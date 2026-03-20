@@ -1,4 +1,4 @@
-import { Calendar, Clock, Laptop, Video, Users, BadgeCheck, Phone, Mail, ExternalLink, Bot, Cpu, Cog, Zap, BrainCircuit, CircuitBoard } from "lucide-react";
+import { Calendar, Clock, Laptop, Video, Users, BadgeCheck, Phone, Mail, ExternalLink, Bot, Cpu, Cog, Zap, BrainCircuit, CircuitBoard, Target, TrendingUp, Lightbulb, Network, GraduationCap, Factory, Wrench, Building2, MapPin } from "lucide-react";
 
 const Index = () => {
   return (
@@ -132,6 +132,104 @@ const Index = () => {
             </div>
           </div>
 
+          {/* Who Should Attend */}
+          <div className="glass-panel rounded-3xl p-6 md:p-8 text-left mb-10 md:mb-12">
+            <h2 className="text-2xl md:text-4xl font-bold text-center mb-8">Who Should Attend?</h2>
+            <div className="grid md:grid-cols-2 gap-4 md:gap-6">
+              <div className="flex gap-4 items-start">
+                <Factory className="shrink-0 mt-1" color="hsl(var(--brand-accent))" size={28} />
+                <div>
+                  <p className="font-semibold text-lg" style={{ color: "hsl(var(--brand-accent))" }}>Automation & Instrumentation Engineers</p>
+                  <p className="text-primary-foreground/70">Looking to integrate AI into PLC, SCADA, and DCS systems</p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <Wrench className="shrink-0 mt-1" color="hsl(var(--brand-accent))" size={28} />
+                <div>
+                  <p className="font-semibold text-lg" style={{ color: "hsl(var(--brand-accent))" }}>Plant & Maintenance Managers</p>
+                  <p className="text-primary-foreground/70">Seeking predictive maintenance and smart monitoring solutions</p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <Building2 className="shrink-0 mt-1" color="hsl(var(--brand-accent))" size={28} />
+                <div>
+                  <p className="font-semibold text-lg" style={{ color: "hsl(var(--brand-accent))" }}>Business Owners & Entrepreneurs</p>
+                  <p className="text-primary-foreground/70">Exploring AI-driven efficiency and cost reduction in operations</p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <GraduationCap className="shrink-0 mt-1" color="hsl(var(--brand-accent))" size={28} />
+                <div>
+                  <p className="font-semibold text-lg" style={{ color: "hsl(var(--brand-accent))" }}>Engineering Students & Educators</p>
+                  <p className="text-primary-foreground/70">Wanting exposure to real-world AI applications in industry</p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <Network className="shrink-0 mt-1" color="hsl(var(--brand-accent))" size={28} />
+                <div>
+                  <p className="font-semibold text-lg" style={{ color: "hsl(var(--brand-accent))" }}>IT & OT Professionals</p>
+                  <p className="text-primary-foreground/70">Bridging the gap between information technology and operational technology</p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <Lightbulb className="shrink-0 mt-1" color="hsl(var(--brand-accent))" size={28} />
+                <div>
+                  <p className="font-semibold text-lg" style={{ color: "hsl(var(--brand-accent))" }}>Anyone Curious About AI + Industry</p>
+                  <p className="text-primary-foreground/70">No prior AI experience needed — just bring your curiosity</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Benefits */}
+          <div className="glass-panel rounded-3xl p-6 md:p-8 text-left mb-10 md:mb-12">
+            <h2 className="text-2xl md:text-4xl font-bold text-center mb-8">Benefits of Attending</h2>
+            <div className="grid md:grid-cols-2 gap-4 md:gap-6">
+              <div className="flex gap-4 items-start">
+                <Target className="shrink-0 mt-1" color="hsl(var(--brand-accent))" size={28} />
+                <div>
+                  <p className="font-semibold text-lg" style={{ color: "hsl(var(--brand-accent))" }}>Real-World Use Cases</p>
+                  <p className="text-primary-foreground/70">Learn how AI is being applied in actual industrial automation projects today</p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <Users className="shrink-0 mt-1" color="hsl(var(--brand-accent))" size={28} />
+                <div>
+                  <p className="font-semibold text-lg" style={{ color: "hsl(var(--brand-accent))" }}>Network with Industry Leaders</p>
+                  <p className="text-primary-foreground/70">Connect directly with experienced professionals from automation and AI</p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <TrendingUp className="shrink-0 mt-1" color="hsl(var(--brand-accent))" size={28} />
+                <div>
+                  <p className="font-semibold text-lg" style={{ color: "hsl(var(--brand-accent))" }}>Stay Ahead of the Curve</p>
+                  <p className="text-primary-foreground/70">Understand emerging trends in Industry 4.0, IIoT, and AI-driven automation</p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <BrainCircuit className="shrink-0 mt-1" color="hsl(var(--brand-accent))" size={28} />
+                <div>
+                  <p className="font-semibold text-lg" style={{ color: "hsl(var(--brand-accent))" }}>Practical Insights, Not Theory</p>
+                  <p className="text-primary-foreground/70">Hands-on discussions with actionable takeaways you can implement immediately</p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <Zap className="shrink-0 mt-1" color="hsl(var(--brand-accent))" size={28} />
+                <div>
+                  <p className="font-semibold text-lg" style={{ color: "hsl(var(--brand-accent))" }}>Live Q&A with Experts</p>
+                  <p className="text-primary-foreground/70">Get your specific questions answered by the panel in real time</p>
+                </div>
+              </div>
+              <div className="flex gap-4 items-start">
+                <BadgeCheck className="shrink-0 mt-1" color="hsl(var(--brand-accent))" size={28} />
+                <div>
+                  <p className="font-semibold text-lg" style={{ color: "hsl(var(--brand-accent))" }}>Certificate of Participation</p>
+                  <p className="text-primary-foreground/70">Receive a certificate to showcase your commitment to continuous learning</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Details */}
           <div className="glass-panel rounded-3xl p-6 md:p-8 text-left mb-10 md:mb-12">
             <div className="flex items-center gap-4 text-lg md:text-2xl mb-4">
@@ -145,9 +243,13 @@ const Index = () => {
                 <span className="text-primary-foreground/80"> (9:30 AM - 10:00 AM Dubai Time)</span>
               </div>
             </div>
-            <div className="flex items-center gap-4 text-lg md:text-2xl">
+            <div className="flex items-center gap-4 text-lg md:text-2xl mb-4">
               <Laptop color="hsl(var(--brand-accent))" />
               <div><span className="font-semibold" style={{ color: "hsl(var(--brand-accent))" }}>Hybrid Format:</span> Zoom & In-Person</div>
+            </div>
+            <div className="flex items-center gap-4 text-lg md:text-2xl">
+              <MapPin color="hsl(var(--brand-accent))" />
+              <div><span className="font-semibold" style={{ color: "hsl(var(--brand-accent))" }}>In-Person Venue:</span> Hope Hospital, Director's Chamber</div>
             </div>
           </div>
 
