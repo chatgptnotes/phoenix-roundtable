@@ -249,7 +249,7 @@ const Index = () => {
             </div>
             <div className="flex items-center gap-4 text-lg md:text-2xl">
               <MapPin color="hsl(var(--brand-accent))" />
-              <div><span className="font-semibold" style={{ color: "hsl(var(--brand-accent))" }}>In-Person Venue:</span> Hope Hospital, Director's Chamber, Nagpur, Maharashtra</div>
+              <div><span className="font-semibold" style={{ color: "hsl(var(--brand-accent))" }}>In-Person Venue:</span> Hope Hospital, Nagpur, Maharashtra</div>
             </div>
           </div>
 
