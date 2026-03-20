@@ -69,9 +69,9 @@ const Index = () => {
                 Healthcare Innovator & Tech Entrepreneur
               </p>
               <ul className="mt-5 space-y-3 text-left max-w-md mx-auto">
+                <li className="flex gap-3"><BadgeCheck className="shrink-0" color="hsl(var(--brand-accent))" /> <span className="text-primary-foreground/80"><span className="font-semibold" style={{ color: "hsl(var(--brand-accent))" }}>CEO</span>, Hope and Ayushman Hospital</span></li>
                 <li className="flex gap-3"><BadgeCheck className="shrink-0" color="hsl(var(--brand-accent))" /> <span className="text-primary-foreground/80"><span className="font-semibold" style={{ color: "hsl(var(--brand-accent))" }}>CTO</span>, Bettroi</span></li>
                 <li className="flex gap-3"><BadgeCheck className="shrink-0" color="hsl(var(--brand-accent))" /> <span className="text-primary-foreground/80"><span className="font-semibold" style={{ color: "hsl(var(--brand-accent))" }}>Phoenix Group</span> of Companies</span></li>
-                <li className="flex gap-3"><BadgeCheck className="shrink-0" color="hsl(var(--brand-accent))" /> <span className="text-primary-foreground/80">Pioneer in <span className="font-semibold" style={{ color: "hsl(var(--brand-accent))" }}>AI-powered healthcare</span> solutions</span></li>
               </ul>
             </div>
 
