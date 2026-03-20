@@ -8,14 +8,6 @@ const Index = () => {
         <article className="rounded-3xl p-6 md:p-10 text-center text-primary-foreground elevated">
           {/* Header */}
           <header className="mb-10 md:mb-12">
-            <div className="mb-8 rounded-3xl overflow-hidden">
-              <img
-                src="/lovable-uploads/1b25641c-b3d2-4b98-8162-849b3b59cdea.png"
-                alt="AI in Automation Engineering Round Table"
-                className="w-full h-auto"
-                loading="lazy"
-              />
-            </div>
             <div className="mb-6">
               <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight text-primary-foreground animate-enter">
                 AI in Automation Engineering
